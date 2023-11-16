@@ -1,0 +1,81 @@
+nav {
+  background: linear-gradient(
+    to top,
+    rgb(212, 192, 217),
+    rgb(169, 130, 180),
+    rgb(100, 61, 110)
+  );
+}
+/* navbar ends */
+/* form starts */
+form{
+  
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+img{
+    display: block;
+    height: 290px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+h1{
+  text-align: center;
+}
+#heading{
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+#submit{
+  width: 100px;
+  margin-top: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+/* 
+.bg-img {
+  background-image: url("../../public/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: auto;
+} */
+/* footer starts */
+ul{
+   list-style-type: none;
+   padding: 10px;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+}
+table,tr,th,td{
+  margin: 5px;
+  padding: 10px;
+}
+.footer-container{
+  background-color: aqua;
+  max-width: 100%;
+}
+.body-container{
+  background-color: rgb(143, 185, 188);
+}
+.footer-form{
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+EditForm{
+  display:block;
+  margin-left: auto;
+  
+}
